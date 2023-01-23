@@ -63,7 +63,8 @@ btnStart.disabled = true;
 let btnActive = true;
 
 
- // конвертер для вывода даты
+ // конвертер времени
+
  function convertMs(ms) {
     
   const second = 1000;
@@ -80,7 +81,7 @@ let btnActive = true;
   return { days, hours, minutes, seconds };
   
 }
-  // ф-ция для 2х символов
+
   function addLeadingZero(value) {
     return String(value).padStart(2,0);
 }
